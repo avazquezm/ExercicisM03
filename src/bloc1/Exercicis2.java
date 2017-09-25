@@ -16,8 +16,9 @@ public class Exercicis2 {
         List<Integer> list1 = new ArrayList<>();
 
         list1.add(Integer.parseInt("16"));
-        list1.add(Integer.parseInt("2"));
+        list1.add(Integer.parseInt("9"));
         list1.add(Integer.parseInt("6"));
+        list1.add(Integer.parseInt("7"));
 
         System.out.println("Size: " + list1.size());
 
@@ -41,6 +42,13 @@ public class Exercicis2 {
                     return i1 - i2;
                 }
         });
+
+//        list1.sort(new Comparator<Integer>() {
+//            @Override
+//            public int compare(Integer i1, Integer i2) {
+//                return i1 - i2;
+//            }
+//        });
 
         for(int i : list1){
             System.out.println(i);
