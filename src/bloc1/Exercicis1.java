@@ -3,7 +3,7 @@ package bloc1;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class Exercici1 {
+public class Exercicis1 {
 
     public static void main(String[] args) {
 
