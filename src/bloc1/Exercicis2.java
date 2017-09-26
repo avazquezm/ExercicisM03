@@ -103,7 +103,7 @@ public class Exercicis2 {
         menors.addAll(menorsEdat(persones));
 
         for (Persona p : menors) {
-            System.out.println(p);
+            System.out.println(p);//
         }
     }
 
